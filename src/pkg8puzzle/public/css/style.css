@@ -1,0 +1,44 @@
+.grid-pane Line{
+    -fx-stroke: rgb(29, 31, 53);
+    -fx-stroke-width: 2;
+}
+
+.vbox{
+    -fx-border-color: rgb(43, 37, 49);
+    -fx-border-width: 10;
+    -fx-background-color: black;
+}
+
+.combo-box{
+    -jfx-label-float: true;
+    -jfx-focus-color: rgb(129, 51, 218);
+    -fx-cursor: hand;
+}
+
+.combo-box .list-cell{
+    -fx-cursor: hand;
+}
+
+#winner{
+    -fx-text-fill: rgb(35, 168, 90);
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+#situacao{
+    -fx-text-fill: rgb(202, 39, 61);
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+.button{
+    -fx-background-color: rgb(120, 38, 214);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-width: 80px;
+    -fx-cursor: hand;
+}
+
+#mainPanel{
+    -fx-background-color: rgb(218, 213, 224);
+}
